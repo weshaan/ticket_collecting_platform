@@ -1,4 +1,4 @@
-# ticket_collecting_platform
+# Ticket collecting platform
 
 This a basic implimentation of a ticket collecting platform, motovated by the idea to improve the usability of the main website of FROSH. 
 
