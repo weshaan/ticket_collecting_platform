@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Armaan Mittal</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Frosh Event tickets</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="event-list">
+        <h2>Upcoming Events</h2>
+        <ul>
+          <li>
+            <h3>Event X</h3>
+            <p>Event Description:</p>
+            <p>Event Date:</p>
+            <button class="buy-ticket-btn" data-event-name="Event Name" data-event-date="Event Date">Buy Tickets</button>
+            <div class="ticket-form hidden">
+              <h4>Buy Tickets for Event X</h4>
+              <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <label for="quantity">Quantity</label>
+                <input type="number" id="quantity" name="quantity" min="1">
+                <button type="submit">Purchase Tickets</button>
+              </form>
+            </div>
+          </li>
+          <li>
+            <h3>Carnival</h3>
+            <p>Event Description:</p>
+            <p>Event Date:</p>
+            <button class="buy-ticket-btn" data-event-name="Event Name" data-event-date="Event Date">Buy Tickets</button>
+            <div class="ticket-form hidden">
+              <h4>Buy Tickets for Carnival</h4>
+              <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <label for="quantity">Quantity</label>
+                <input type="number" id="quantity" name="quantity" min="1">
+                <button type="submit">Purchase Tickets</button>
+              </form>
+            </div>
+          </li>
+          <!-- Add more events here -->
+        </ul>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,149 @@
+/* Base styles */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header */
+  
+  header {
+    background-color: #83b4f0;
+    border-bottom: 1px solid #00d0ff;
+    padding: 1em;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Navigation */
+  
+  nav {
+    background-color: #1c7ce2;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 1em;
+  }
+  
+  nav a {
+    color: rgb(255, 255, 255);
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Event list */
+  
+  #event-list {
+    padding: 2em;
+  }
+  
+  #event-list h2 {
+    margin-top: 0;
+  }
+  
+  #event-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #event-list li {
+    background-color: #94dbee;
+    border: 1px solid #000000;
+    margin-bottom: 1em;
+    padding: 1em;
+    position: relative;
+  }
+  
+  #event-list li h3 {
+    margin-top: 0;
+  }
+  
+  .buy-ticket-btn {
+    background-color: #4551f6;
+    border: none;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 1em;
+    cursor: pointer;
+  }
+  
+  .ticket-form {
+    background-color: #5b8cdf;
+    border: 1px solid #ccc;
+    margin-top: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1; /* add z-index value */
+  }
+  
+  .ticket-form h4 {
+    margin-top: 0;
+  }
+  
+  .ticket-form label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  .ticket-form input {
+    padding: 0.5em;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  
+  .ticket-form button {
+    background-color: #0011ff;
+    border: none;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 1em;
+    cursor: pointer;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
